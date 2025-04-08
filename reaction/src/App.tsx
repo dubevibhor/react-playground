@@ -1,5 +1,6 @@
 import "./App.css";
 import { ImageCarousel } from "./components/carousel";
+import { ThumbnailCarousel } from "./components/thumbnail-carousel";
 // import { TodoList } from "./components/todo";
 // import { Autocomplete } from "./components/autocomplete";
 // import { CurrencyConverter } from "./components/currency-converter";
@@ -7,7 +8,7 @@ import { ImageCarousel } from "./components/carousel";
 function App() {
   return (
     <>
-      <ImageCarousel />
+      <ThumbnailCarousel />
     </>
   );
 }
