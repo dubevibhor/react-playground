@@ -31,6 +31,9 @@
   max-width: 50%;
 }
 
+.responsive-images-wrapper img{
+  display: inline-block;
+}
 
 @keyframes logo-spin {
   from {
@@ -53,4 +56,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-images-wrapper img{
+    display: block;
+    }
 }
