@@ -35,6 +35,18 @@
   display: inline-block;
 }
 
+.user-tabs-list {
+  list-style: none;
+}
+
+.user-tabs-list li {
+  display: inline-block;
+}
+
+button.active {
+  background-color: white;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
